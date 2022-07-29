@@ -1,3 +1,5 @@
+
+//this is getting data from blockchain and map it to the definded Graphql Schema
 import {
   Transfer as TransferEvent
 } from "../generated/Contract/Contract"
@@ -68,3 +70,4 @@ export function handleTransfer(event: TransferEvent): void {
     user.save();
   }
 }
+
